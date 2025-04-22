@@ -1,0 +1,44 @@
+<!-- preguntas.html -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Preguntas para Enamorarnos</title>
+  <link rel="stylesheet" href="../style.css" />
+  <link rel="stylesheet" href="../assets/css/theme.css" />
+  <script type="module" src="../assets/js/preguntas.js" defer></script>
+</head>
+<body>
+  <header>
+    <div class="menu-icon" onclick="toggleMenu()">☰</div>
+    <h1>Preguntas 💬</h1>
+  </header>
+
+  <nav id="menu" class="menu">
+    <ul>
+      <li><a href="../index.html">Inicio</a></li>
+      <li><a href="notas.html">Notas</a></li>
+      <li><a href="mi-espacio.html">Mi espacio</a></li>
+      <li><a href="playlist.html">Playlist</a></li>
+      <li><a href="kdramas.html">K-Dramas</a></li>
+      <li><a href="calendario.html">Calendario</a></li>
+      <li><a href="reels.html">Reels</a></li>
+    </ul>
+  </nav>
+
+  <main class="contenedor-preguntas">
+    <div class="categorias">
+      <button onclick="cambiarCategoria('amor')">❤️ Amor</button>
+      <button onclick="cambiarCategoria('random')">🎲 Random</button>
+      <button onclick="cambiarCategoria('traviesas')">🔥 Traviesas</button>
+    </div>
+
+    <section id="preguntas-container">
+      <!-- Preguntas dinámicas -->
+    </section>
+  </main>
+
+  <script src="../assets/js/menu.js"></script>
+</body>
+</html>
