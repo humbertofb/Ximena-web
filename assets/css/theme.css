@@ -1,0 +1,19 @@
+/* theme.css */
+:root {
+  --bg: #fff0f5;
+  --text: #333;
+  --header-bg: #ffc0cb;
+  --menu-bg: #f8bbd0;
+  --card-bg: #ffe4e1;
+}
+
+/* Noche */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #1a1a2e;
+    --text: #fff;
+    --header-bg: #27293d;
+    --menu-bg: #2e2e4e;
+    --card-bg: #393b5b;
+  }
+}
